@@ -1,1 +1,2 @@
-xcopy C:\ProgramData\Microsoft\ProgramTest.exe C:\ProgramData\Microsoft\Windows\"Start Menu"\Programs\StartUp /0 /X /E /H /K
+@echo off
+copy "C:\Users\%username%\Desktop\somefolder\example.bat" "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
